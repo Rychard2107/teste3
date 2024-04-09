@@ -4,6 +4,6 @@ from .models import Caso_Model
 import requests
 
 
-def dashboard(request):
-    return render(request, 'app_teste/dashboard.html')
+def index(request):
+    return render(request, 'index.html')
 
